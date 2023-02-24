@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Reddit" Version="1.5.2" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.96" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JackHenry.Services.TwitterService.Application\JackHenry.Services.TwitterService.Application.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,38 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:15673",
+      "sslPort": 44322
+    }
+  },
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "Key": "Value",
+        "REDIS_HOST_NAME": "redis-19324.c56.east-us.azure.cloud.redislabs.com",
+        "REDIS_PORT": "19324",
+        "REDIS_PASSWORD": "LSWnA8gglCsjL3GhIyzuTlYjbBuTq5Ln",
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "JackHenry.Services.TwitterService.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "REDIS_HOST_NAME": "redis-19324.c56.east-us.azure.cloud.redislabs.com",
+        "REDIS_PORT": "19324",
+        "REDIS_PASSWORD": "LSWnA8gglCsjL3GhIyzuTlYjbBuTq5Ln"
+      },
+      "dotnetRunMessages": "true",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000"
+    }
+  }
+}
